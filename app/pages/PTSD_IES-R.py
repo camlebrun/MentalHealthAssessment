@@ -72,7 +72,7 @@ questions = [
         ]
     },
          {   
-        "question": "Je me suis tenu(e) loin de ce qui m’y faisait penser",
+        "question": "Je me suis tenu·e loin de ce qui m’y faisait penser",
         "options": [
             {"option": "Pas du tout", "weight": 0},
             {"option": "Un peu", "weight": 1},
@@ -112,7 +112,7 @@ questions = [
         ]
     },
              {   
-        "question": "J’étais conscient(e) d’avoir encore beaucoup d’émotions à propos de l’événement, mais je n’y ai pas fait face",
+        "question": "J’étais conscient·e d’avoir encore beaucoup d’émotions à propos de l’événement, mais je n’y ai pas fait face",
         "options": [
             {"option": "Pas du tout", "weight": 0},
             {"option": "Un peu", "weight": 1},
@@ -227,7 +227,7 @@ def main():
     responses = []
     for i, question in enumerate(questions):
         st.write("Question :", question["question"])
-        response = st.radio("Votre réponse :", [option["option"] for option in question["options"]], key=f"radio-{i}")
+        response = st.selectbox("Votre réponse :", [option["option"] for option in question["options"]], key=f"radio-{i}")
         responses.append(response)
     st.metric("Score:", calculate_score(responses))
 

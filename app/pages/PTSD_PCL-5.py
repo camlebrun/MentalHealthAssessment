@@ -1,7 +1,7 @@
 import streamlit as st
 st.title("PCL-5")
 st.write("Post-traumatic stress disorder Checlist version DSM-5")
-st.write("Consignes : Voici une liste de problèmes que les gens éprouvent parfois suite à une expérience vraiment stressante. Veuillez lire chaque énoncé attentivement et cocher la case pour indiquer dans quelle mesure ce problème vous a affecté dans le dernier mois.")
+st.write("Consignes : Voici une liste de problèmes que les gens éprouvent parfois suite à une expérience vraiment stressante. Veuillez lire chaque énoncé attentivement et cocher la case pour indiquer dans quelle mesure ce problème vous a affecté dans le dernier mois")
 questions = [
     {
         "question": "Des souvenirs répétés, pénibles et involontaires de l’expérience stressante ?",
@@ -208,7 +208,7 @@ def main():
     responses = []
     for i, question in enumerate(questions):
         st.write("Question :", question["question"])
-        response = st.radio("Votre réponse :", [option["option"] for option in question["options"]], key=f"radio-{i}")
+        response = st.selectbox("Votre réponse :", [option["option"] for option in question["options"]], key=f"radio-{i}")
         responses.append(response)
     st.metric("Score:", calculate_score(responses))
 
