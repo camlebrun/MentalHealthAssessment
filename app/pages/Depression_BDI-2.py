@@ -227,3 +227,6 @@ def main():
 
 if __name__ == '__main__':
     main()
+st.write("Hésitez pas à consulter un·e professionnel·le si vous avez besoin d'aide.")
+st.warning(" SAMU : 15 ou 112", icon="⚠️")
+st.warning(" Numéro national de prévention du suicide (24h/24 et 7j/7) 3114", icon="📞")
