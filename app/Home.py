@@ -25,4 +25,5 @@ page_names_to_funcs = {
 
 }
 
-st.markdown(" Le code soruce est [ici](https://github.com/camlebrun/mental_health_test)")
+
+st.warning("Le code source est disponible [ici](https://github.com/camlebrun/mental_health_test)")
