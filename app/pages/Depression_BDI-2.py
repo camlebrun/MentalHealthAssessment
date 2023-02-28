@@ -19,7 +19,7 @@ questions = [
             {"option": "J'ai le sentiment que mon avenir est sans espoir et qu'il ne peut qu'empirer", "weight": 3}
         ]
     },
-        {
+    {
         "question": "Échecs dans le passé",
         "options": [
             {"option": "Je n'ai pas le sentiment d'avoir échoué dans la vie, d'être un·e raté·e", "weight": 0},
@@ -28,7 +28,7 @@ questions = [
             {"option": "J'ai le sentiment d'avoir complètement raté ma vie", "weight": 3}
         ]
     },
-        {
+    {
         "question": "Perte de plaisir",
         "options": [
             {"option": "J'éprouve toujours autant de plaisir qu'avant aux choses qui me plaisent", "weight": 0},
@@ -37,7 +37,7 @@ questions = [
             {"option": "Je n'éprouve aucun plaisir aux choses qui me plaisaient habituellement", "weight": 3}
         ]
     },
-        {
+    {
         "question": "Sentiments de culpabilité",
         "options": [
             {"option": "Je ne me sens pas particulièrement coupable", "weight": 0},
@@ -46,7 +46,7 @@ questions = [
             {"option": "Je me sens tout le temps coupable", "weight": 3}
         ]
     },
-        {
+    {
         "question": "Sentiment d'être puni·e",
         "options": [
             {"option": "Je n'ai pas le sentiment d'être puni·e", "weight": 0},
@@ -55,7 +55,7 @@ questions = [
             {"option": "Je ne m'aime pas du tout", "weight": 3}
         ]
     },
-        {
+    {
         "question": "Sentiments négatifs envers soi-même",
         "options": [
             {"option": "Mes sentiments envers moi-même n'ont pas changé", "weight": 0},
@@ -64,7 +64,7 @@ questions = [
             {"option": "Je ne m'aime pas du tout", "weight": 3}
         ]
     },
-         {   
+    {
         "question": "Attitude critique envers soi",
         "options": [
             {"option": "Je ne me blâme pas ou ne me critique pas plus que d'habitude", "weight": 0},
@@ -73,7 +73,7 @@ questions = [
             {"option": "Je me reproche tous les malheurs qui arrivent", "weight": 3}
         ]
     },
-             {   
+    {
         "question": "Pensées ou désirs de suicide",
         "options": [
             {"option": "Je ne pense pas du tout à me suicider", "weight": 0},
@@ -82,7 +82,7 @@ questions = [
             {"option": "Je me suiciderais si l'occasion se présentait", "weight": 3}
         ]
     },
-             {   
+    {
         "question": "Pleurs",
         "options": [
             {"option": "Je ne pleure pas plus qu'avant", "weight": 0},
@@ -91,7 +91,7 @@ questions = [
             {"option": "Je voudrais pleurer mais je ne suis pas capable", "weight": 3}
         ]
     },
-             {   
+    {
         "question": "Agitation",
         "options": [
             {"option": "Je ne suis pas plus agité·e ou plus tendu·e que d'habitude", "weight": 0},
@@ -100,7 +100,7 @@ questions = [
             {"option": "Je suis si agité·e ou tendu·e que je dois continuellement bouger ou faire quelque chose", "weight": 3}
         ]
     },
-             {   
+    {
         "question": "Perte d'intérêt",
         "options": [
             {"option": "Je n'ai pas perdu d'intérêt pour les gens ou pour les activités", "weight": 0},
@@ -109,7 +109,7 @@ questions = [
             {"option": "J'ai du mal à m'intéresser à quoique ce soit", "weight": 3}
         ]
     },
-        {   
+    {
         "question": "Indécision",
         "options": [
             {"option": "Je prends des décisions toujours aussi bien qu'avant", "weight": 0},
@@ -118,7 +118,7 @@ questions = [
             {"option": "J'ai du mal à prendre n'importe quelle décision", "weight": 3}
         ]
     },
-             {   
+    {
         "question": "Dévalorisation",
         "options": [
             {"option": "Je pense être quelqu'un de valable", "weight": 0},
@@ -127,7 +127,7 @@ questions = [
             {"option": "Je sens que je ne vaux absolument rien", "weight": 3}
         ]
     },
-             {   
+    {
         "question": "Perte d'énergie",
         "options": [
             {"option": "J'ai toujours autant d'énergie qu'avant", "weight": 0},
@@ -136,7 +136,7 @@ questions = [
             {"option": "J'ai trop peu d'énergie pour faire quoi que ce soit", "weight": 3}
         ]
     },
-             {   
+    {
         "question": "Modifications dans les habitudes de sommeil",
         "options": [
             {"option": "Mes habitudes de sommeil n'ont pas changé", "weight": 0},
@@ -148,7 +148,7 @@ questions = [
             {"option": "Je me réveille une ou deux heures plus tôt et je suis incapable de me rendormir", "weight": 3}
         ]
     },
-                 {   
+    {
         "question": "Irritabilité",
         "options": [
             {"option": "Je ne suis pas plus irritable que d'habitude", "weight": 0},
@@ -157,7 +157,7 @@ questions = [
             {"option": "Je suis constamment irritable", "weight": 3}
         ]
     },
-             {   
+    {
         "question": "Modifications de l'appétit",
         "options": [
             {"option": " Mon appétit n'a pas changé", "weight": 0},
@@ -169,7 +169,7 @@ questions = [
             {"option": "J'ai constamment envie de manger", "weight": 3}
         ]
     },
-             {   
+    {
         "question": "Difficulté à se concentrer",
         "options": [
             {"option": "Je parviens à me concentrer toujours aussi bien qu'avant", "weight": 0},
@@ -178,7 +178,7 @@ questions = [
             {"option": "Je me trouve incapable de me concentrer sur quoi que ce soit", "weight": 3}
         ]
     },
-             {   
+    {
         "question": "Fatigue",
         "options": [
             {"option": "Je ne suis pas plus fatiqué·e que d'habitude", "weight": 0},
@@ -187,17 +187,18 @@ questions = [
             {"option": "Je suis trop fatigué·e pour faire la plupart des choses que je faisais avant", "weight": 3}
         ]
     },
-                 {   
+    {
         "question": "Perte d'intérêt pour le sexe",
         "options": [
             {"option": "Je n'ai pas noté de changement récent dans mon intérêt pour le sexe", "weight": 0},
             {"option": "Le sexe m'intéresse moins qu'avant", "weight": 1},
             {"option": "Le sexe m'intéresse beaucoup moins maintenant", "weight": 2},
-            {"option":"J'ai perdu tout intérêt pour le sexe", "weight": 3}
+            {"option": "J'ai perdu tout intérêt pour le sexe", "weight": 3}
         ]
     }
 
 ]
+
 
 def calculate_score(responses):
     score = 0
@@ -208,11 +209,14 @@ def calculate_score(responses):
                 break
     return score
 
+
 def main():
     responses = []
     for i, question in enumerate(questions):
         st.write("Question :", question["question"])
-        response = st.radio("Votre réponse :", [option["option"] for option in question["options"]], key=f"radio-{i}")
+        response = st.radio(
+            "Votre réponse :", [
+                option["option"] for option in question["options"]], key=f"radio-{i}")
         responses.append(response)
     st.metric("Score:", calculate_score(responses))
     if calculate_score(responses) <= 9:
@@ -221,7 +225,7 @@ def main():
         st.write("Dépression légère, consulter un·e professionnel·e de santé ")
     elif calculate_score(responses) in range(11, 30):
         st.write("Dépression modérée, consulter un·e professionnel·e de santé ")
-    else :
+    else:
         st.write("Dépression sévère, consulter un·e professionnel·e de santé ")
 
 
@@ -229,4 +233,6 @@ if __name__ == '__main__':
     main()
 st.write("Hésitez pas à consulter un·e professionnel·le si vous avez besoin d'aide.")
 st.warning(" SAMU : 15 ou 112", icon="⚠️")
-st.warning(" Numéro national de prévention du suicide (24h/24 et 7j/7) 3114", icon="📞")
+st.warning(
+    " Numéro national de prévention du suicide (24h/24 et 7j/7) 3114",
+    icon="📞")
