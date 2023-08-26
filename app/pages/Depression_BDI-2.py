@@ -23,7 +23,7 @@ questions = [
         "question": "Échecs dans le passé",
         "options": [
             {"option": "Je n'ai pas le sentiment d'avoir échoué dans la vie, d'être un·e raté·e", "weight": 0},
-            {"option": "UJ'ai échoué plus souvent que je n'aurais dû", "weight": 1},
+            {"option": "J'ai échoué plus souvent que je n'aurais dû", "weight": 1},
             {"option": "Quand je pense à mon passé, je constate un grand nombre d'échecs", "weight": 2},
             {"option": "J'ai le sentiment d'avoir complètement raté ma vie", "weight": 3}
         ]
@@ -221,9 +221,9 @@ def main():
     st.metric("Score:", calculate_score(responses))
     if calculate_score(responses) <= 9:
         st.write("Score normal")
-    elif calculate_score(responses) in range(10, 19):
+    elif calculate_score(responses) in range(10, 20):
         st.write("Dépression légère, consulter un·e professionnel·e de santé ")
-    elif calculate_score(responses) in range(11, 30):
+    elif calculate_score(responses) in range(20, 30):
         st.write("Dépression modérée, consulter un·e professionnel·e de santé ")
     else:
         st.write("Dépression sévère, consulter un·e professionnel·e de santé ")
