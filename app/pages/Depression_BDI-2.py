@@ -1,5 +1,6 @@
 import streamlit as st
 st.title("BDI-2 - Inventaire de dépression de Beck")
+st.write('Le score maxiamle est de 63')
 questions = [
     {
         "question": "Tristesse",
@@ -220,8 +221,8 @@ def main():
         responses.append(response)
     st.metric("Score:", calculate_score(responses))
     if calculate_score(responses) <= 9:
-        st.write("Score normal")
-    elif calculate_score(responses) in range(10, 20):
+        st.write("Pas de dépression, si vous avez des doutes, consulter un·e professionnel·e de santé")
+    elif calculate_score(responses) in range(10, 19):
         st.write("Dépression légère, consulter un·e professionnel·e de santé ")
     elif calculate_score(responses) in range(20, 30):
         st.write("Dépression modérée, consulter un·e professionnel·e de santé ")
@@ -232,7 +233,4 @@ def main():
 if __name__ == '__main__':
     main()
 st.write("Hésitez pas à consulter un·e professionnel·le si vous avez besoin d'aide.")
-st.warning(" SAMU : 15 ou 112", icon="⚠️")
-st.warning(
-    " Numéro national de prévention du suicide (24h/24 et 7j/7) 3114",
-    icon="📞")
+st.error(" SAMU : 15 ou 112. Numéro national de prévention du suicide (24h/24 et 7j/7) 3114", icon="🚨")
